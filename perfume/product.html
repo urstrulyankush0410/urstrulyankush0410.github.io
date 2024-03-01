@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product marketing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    .mian {
+        color: hsl(158, 36%, 37%);
+        color: hsl(30, 38%, 92%);
+        color: hsl(212, 21%, 14%);
+        color: hsl(228, 12%, 48%);
+        color: hsl(0, 0%, 100%)
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        background-color: hsl(0, 19%, 86%);
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wholecard {
+        display: flex;
+
+    }
+
+    .firstmaincard {
+        height: 272px;
+        width: 175px;
+    }
+
+    .secondmaincard {
+        height: 272px;
+        width: 175px;
+        background-color: white;
+        padding: 13px;
+    }
+
+    .boldtext {
+        display: flex;
+        gap: 17px;
+        align-items: center;
+
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "SOFT" 0,
+            "WONK" 0;
+    }
+
+    .thintext {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 10px;
+        opacity: 0.6;
+    }
+
+    #heading {
+        margin-top: 10px;
+    }
+
+    #paragraph {
+        margin-top: 18px;
+    }
+
+    #mainprice {
+        margin-top: 17px;
+        font-size: large;
+        color:hsl(158, 36%, 37%);
+    }
+
+    #oldprice {
+        margin-top: 17px;
+        font-size: 10px;
+        opacity: 0.8;
+        text-decoration: line-through;
+    }
+
+    .logo {
+        font-size: 12px;
+        background-color: hsl(158, 36%, 37%);
+        margin-top: 22px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 6px;
+        padding-left: 44px;
+    }
+
+    .logo a {
+        margin-left: 6px;
+        text-decoration: none;
+        color: white;
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings "SOFT" 0,
+        "WONK" 0;
+
+    }
+</style>
+
+<body>
+    <div class="wholecard">
+        <div class="firstmaincard">
+            <div class="image">
+                <img src="image-product-desktop.jpg" alt="" width="200" height="298">
+            </div>
+        </div>
+        <div class="secondmaincard">
+            <p class="thintext">PERFUME</p>
+            <H2 class="boldtext" id="heading">
+                Gabrielle Essence Eau De Parfum
+            </H2>
+            <p class="thintext" id="paragraph">
+                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House
+                of
+                CHANEL.
+            </p>
+            <div class="boldtext">
+                <h6 id="mainprice">$149.99</h6>
+                <p id="oldprice">
+                    $169.99
+                </p>
+            </div>
+            <div class="cartbtn">
+                <div class="logo">
+                    <img src="icon-cart.svg" alt="">
+                    <a href="">Add to cart</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
